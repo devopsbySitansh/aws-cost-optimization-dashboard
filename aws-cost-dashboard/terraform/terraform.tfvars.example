@@ -1,0 +1,19 @@
+# Copy this file to terraform.tfvars and fill in your values
+# DO NOT commit terraform.tfvars to git
+
+aws_region          = "ap-south-1"
+project_name        = "cost-dashboard"
+environment         = "production"
+alert_email         = "your-email@example.com"
+cpu_alarm_threshold = 20
+
+# Add your actual EC2 and RDS instance IDs
+ec2_instance_ids = [
+  # "i-0abc123def456789a",
+  # "i-0def456abc789012b",
+]
+
+rds_instance_ids = [
+  # "my-production-db",
+  # "analytics-db-01",
+]
